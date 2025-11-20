@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asesores KG – Seguros de Vida y Planes de Retiro</title>
+  <meta name="description" content="Protege a tu familia y construye tu retiro con Asesores KG. Seguros de vida, gastos médicos mayores y planes personales de retiro con asesoría personalizada." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img
+          src="assets/logo.png"
+          alt="Asesores KG"
+          class="logo-img"
+        />
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Abrir menú de navegación">☰</button>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#unete">Únete</a>
+        <a href="#contacto" class="nav-cta">Agenda tu asesoría</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content animate-up">
+          <span class="hero-kicker">Seguros de vida · Planes de retiro · Gastos médicos mayores</span>
+          <h1>Protege a tu familia y construye tu retiro desde hoy.</h1>
+          <p class="hero-subtitle">
+            Te acompañamos paso a paso para elegir el seguro ideal y un plan personal de retiro que
+            te permita vivir tranquilo, pase lo que pase.
+          </p>
+          <ul class="hero-benefits">
+            <li>Asesoría 100% personalizada, sin costo.</li>
+            <li>Productos de Seguros Monterrey diseñados según tu perfil.</li>
+            <li>Estrategias de ahorro y beneficios fiscales para tu retiro.</li>
+          </ul>
+          <div class="hero-highlight">
+            <span class="hero-highlight-number">+500</span>
+            <span class="hero-highlight-text">Familias protegidas con soluciones hechas a la medida.</span>
+          </div>
+        </div>
+        <div class="hero-form-card animate-up">
+          <h2>Agenda una asesoría gratis</h2>
+          <p class="form-subtitle">
+            Déjanos tus datos y uno de nuestros asesores te contactará para ayudarte a elegir la mejor opción.
+          </p>
+          <form class="lead-form" action="#" method="post">
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. María López" required />
+              </div>
+              <div class="form-field">
+                <label for="telefono">Teléfono / WhatsApp</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="55 1234 5678" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+            </div>
+            <div class="form-field">
+              <label for="tipo-seguro">¿Qué te interesa?</label>
+              <select id="tipo-seguro" name="tipo-seguro" required>
+                <option value="">Selecciona una opción</option>
+                <option value="vida">Seguro de vida</option>
+                <option value="retiro">Plan personal de retiro</option>
+                <option value="gmm">Gastos médicos mayores</option>
+                <option value="segubeca">Segubeca / plan educativo</option>
+                <option value="vida-mujer">Vida Mujer</option>
+                <option value="otros">Combinar varias opciones</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="objetivo">¿Cuál es tu principal objetivo?</label>
+              <textarea id="objetivo" name="objetivo" rows="3" placeholder="Ej. Proteger a mi familia y ahorrar para mi retiro."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Quiero mi asesoría sin costo</button>
+            <p class="form-note">
+              <strong>Sin compromisos:</strong> solo agendamos una llamada para entender tu situación y presentarte opciones.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="section section-light">
+      <div class="container">
+        <div class="section-header animate-up">
+          <h2>Nuestros seguros y planes para ti</h2>
+          <p>
+            Diseñamos una estrategia integral que combina protección, ahorro y beneficios fiscales,
+            de acuerdo con tu etapa de vida y metas financieras.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <article class="card product-card animate-up">
+            <div class="card-icon">👨‍👩‍👧</div>
+            <h3>Seguro de Vida</h3>
+            <p>
+              Protege el nivel de vida de tu familia en caso de fallecimiento o invalidez, con sumas aseguradas
+              que realmente cubren sus gastos.
+            </p>
+            <ul class="card-list">
+              <li>Protección de ingresos para tu familia.</li>
+              <li>Coberturas adicionales por invalidez o enfermedades.</li>
+              <li>Planes flexibles según tu presupuesto.</li>
+            </ul>
+          </article>
+          <article class="card product-card animate-up">
+            <div class="card-icon">🏁</div>
+            <h3>Plan Personal de Retiro</h3>
+            <p>
+              Ahorra de forma disciplinada para tu retiro y aprovecha los beneficios fiscales que la ley
+              ofrece a quienes se preparan con anticipación.
+            </p>
+            <ul class="card-list">
+              <li>Beneficios fiscales deducibles de impuestos.</li>
+              <li>Renta vitalicia o entrega en una sola exhibición.</li>
+              <li>Diseñado a tu edad y etapa laboral.</li>
+            </ul>
+          </article>
+          <article class="card product-card animate-up">
+            <div class="card-icon">🏥</div>
+            <h3>Gastos Médicos Mayores</h3>
+            <p>
+              Atención en hospitales privados de alto nivel sin descuidar tus finanzas.
+              Tú eliges el nivel de deducible y red médica.
+            </p>
+            <ul class="card-list">
+              <li>Cobertura nacional e internacional.</li>
+              <li>Respaldo de Seguros Monterrey.</li>
+              <li>Opciones para familias y empresas.</li>
+            </ul>
+          </article>
+          <article class="card product-card animate-up">
+            <div class="card-icon">🎓</div>
+            <h3>Segubeca & Vida Mujer</h3>
+            <p>
+              Asegura la educación de tus hijos o protege etapas clave en la vida de la mujer con
+              coberturas específicas y ahorro programado.
+            </p>
+            <ul class="card-list">
+              <li>Capital garantizado para estudios.</li>
+              <li>Protección frente a padecimientos específicos.</li>
+              <li>Metas de mediano y largo plazo.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUÉ NOSOTROS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header animate-up">
+          <h2>¿Por qué contratar con Asesores KG?</h2>
+          <p>
+            No vendemos pólizas; construimos estrategias financieras para que tú y tu familia estén protegidos hoy
+            y en el futuro.
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature animate-up">
+            <h3>Acompañamiento cercano</h3>
+            <p>Te guiamos desde la primera llamada hasta el uso de tus beneficios cuando los necesites.</p>
+          </div>
+          <div class="feature animate-up">
+            <h3>Planes hechos a la medida</h3>
+            <p>Analizamos tu situación actual, metas y presupuesto para definir la mezcla ideal de productos.</p>
+          </div>
+          <div class="feature animate-up">
+            <h3>Enfoque en ahorro y retiro</h3>
+            <p>No solo protegemos imprevistos; también te ayudamos a construir patrimonio y aprovechar beneficios fiscales.</p>
+          </div>
+          <div class="feature animate-up">
+            <h3>Especialistas en Seguros Monterrey</h3>
+            <p>Conocemos a profundidad los productos de Seguros Monterrey para diseñar la estrategia que más te convenga.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section id="como-funciona" class="section section-light">
+      <div class="container">
+        <div class="section-header animate-up">
+          <h2>Así de fácil es empezar</h2>
+          <p>En tres pasos podemos dejar tu futuro financiero mucho más estructurado.</p>
+        </div>
+        <div class="steps">
+          <div class="step animate-up">
+            <div class="step-number">1</div>
+            <h3>Agenda tu asesoría</h3>
+            <p>Llena el formulario o escríbenos por WhatsApp. Definimos fecha y hora para una videollamada o llamada.</p>
+          </div>
+          <div class="step animate-up">
+            <div class="step-number">2</div>
+            <h3>Analizamos tu situación</h3>
+            <p>Revisamos ingresos, deudas, metas y responsabilidades familiares. No necesitas tener todo “perfecto”.</p>
+          </div>
+          <div class="step animate-up">
+            <div class="step-number">3</div>
+            <h3>Diseñamos tu estrategia</h3>
+            <p>Te presentamos opciones claras, comparativos y un plan accionable que puedas empezar desde ya.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RETIRO -->
+    <section class="section section-retirement">
+      <div class="container retirement-inner">
+        <div class="retirement-text animate-up">
+          <h2>Tu retiro no se va a pagar solo. Empieza hoy.</h2>
+          <p>
+            Un plan personal de retiro bien diseñado puede darte la libertad de elegir cómo quieres vivir tu
+            siguiente etapa de vida. Tú decides cuánto, cuándo y cómo ahorrar; nosotros te guiamos en el camino.
+          </p>
+          <ul class="retirement-list">
+            <li>Opciones con beneficios fiscales según la ley mexicana.</li>
+            <li>Planes que se adaptan a tu edad y capacidad de ahorro.</li>
+            <li>Escenarios claros: cuánto podrías recibir al retirarte.</li>
+          </ul>
+          <a href="#contacto" class="btn-secondary">Quiero hablar de mi retiro</a>
+        </div>
+        <div class="retirement-metrics">
+          <div class="metric-card animate-up">
+            <span class="metric-number">+10</span>
+            <span class="metric-label">años<br />asesorando familias</span>
+          </div>
+          <div class="metric-card animate-up">
+            <span class="metric-number">100%</span>
+            <span class="metric-label">de las asesorías son personalizadas</span>
+          </div>
+          <div class="metric-card animate-up">
+            <span class="metric-number">1</span>
+            <span class="metric-label">aseguradora: especialistas en Seguros Monterrey</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" class="section section-light">
+      <div class="container">
+        <div class="section-header animate-up">
+          <h2>Historias de tranquilidad</h2>
+          <p>Clientes reales que hoy se sienten más tranquilos con su futuro financiero.</p>
+        </div>
+        <div class="testimonials-grid">
+          <article class="testimonial animate-up">
+            <p class="testimonial-text">
+              “Siempre había pospuesto el tema del seguro de vida y retiro. Con Asesores KG todo fue muy claro
+              y ahora sé exactamente qué estoy construyendo para mi familia.”
+            </p>
+            <p class="testimonial-name">— Karla, 38 años</p>
+          </article>
+          <article class="testimonial animate-up">
+            <p class="testimonial-text">
+              “Tuvimos una emergencia médica fuerte. Gracias al seguro que contratamos con ellos, pudimos atendernos
+              en un buen hospital sin endeudarnos.”
+            </p>
+            <p class="testimonial-name">— Ernesto y Paola</p>
+          </article>
+          <article class="testimonial animate-up">
+            <p class="testimonial-text">
+              “Me enseñaron cómo aprovechar los beneficios fiscales del plan de retiro. No solo ahorro, también pago
+              menos impuestos.”
+            </p>
+            <p class="testimonial-name">— Miguel, 45 años</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÚNETE -->
+    <section id="unete" class="section section-join">
+      <div class="container join-inner">
+        <div class="join-text animate-up">
+          <h2>¿Te gustaría ayudar a otros a proteger su futuro?</h2>
+          <p>
+            Súmate a Asesores KG como asesor financiero. Te damos capacitación, acompañamiento y una
+            carrera con ingresos crecientes según tu desempeño.
+          </p>
+          <ul class="join-list">
+            <li>Formación continua en seguros y finanzas personales.</li>
+            <li>Modelo de trabajo flexible y por objetivos.</li>
+            <li>Acompañamiento de líderes con experiencia.</li>
+          </ul>
+          <a href="#contacto" class="btn-outline">Quiero más información para ser asesor</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header animate-up">
+          <h2>Preguntas frecuentes</h2>
+          <p>Aquí respondemos algunas dudas generales sobre la asesoría y los productos.</p>
+        </div>
+        <div class="faq-list">
+          <details class="animate-up">
+            <summary>¿La asesoría tiene algún costo?</summary>
+            <p>
+              No. La asesoría inicial no tiene costo. El objetivo es revisar tu situación y explicarte las opciones
+              disponibles para que puedas decidir con calma.
+            </p>
+          </details>
+          <details class="animate-up">
+            <summary>¿Con qué aseguradora trabajan?</summary>
+            <p>
+              Trabajamos de forma especializada con Seguros Monterrey. Durante la asesoría revisamos los productos
+              que mejor se ajustan a tu perfil y a tus objetivos.
+            </p>
+          </details>
+          <details class="animate-up">
+            <summary>¿Es obligatorio contratar algún producto después de la asesoría?</summary>
+            <p>
+              No. Puedes tomar la información, analizarla y, si lo deseas, avanzar más adelante. La decisión de contratar
+              o no un seguro o plan de retiro es totalmente tuya.
+            </p>
+          </details>
+          <details class="animate-up">
+            <summary>¿Qué información necesito tener a la mano para la asesoría?</summary>
+            <p>
+              Ayuda tener una idea de tus ingresos, gastos mensuales y metas (por ejemplo, proteger a tu familia,
+              ahorro para retiro o estudios de hijos). Si no lo tienes todo definido, lo revisamos durante la sesión.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section-contact">
+      <div class="container contact-inner">
+        <div class="contact-text animate-up">
+          <h2>Hablemos de tu futuro financiero</h2>
+          <p>
+            Cuéntanos por dónde quieres empezar: proteger a tu familia, asegurar tus gastos médicos,
+            ahorrar para el retiro o todo lo anterior.
+          </p>
+          <div class="contact-highlights">
+            <div>
+              <h3>Atención personalizada</h3>
+              <p>Lunes a viernes de 9:00 a 19:00 hrs.</p>
+            </div>
+            <div>
+              <h3>WhatsApp</h3>
+              <p>Comparte tu duda y agendamos una llamada.</p>
+            </div>
+          </div>
+          <a href="https://wa.me/5215512345678" target="_blank" class="btn-whatsapp">Escríbenos por WhatsApp</a>
+          <p class="contact-note">
+            También puedes escribirnos a:
+            <a href="mailto:contacto@asesoreskg.com">contacto@asesoreskg.com</a>
+          </p>
+        </div>
+        <div class="contact-card animate-up">
+          <h3>Déjanos tus datos</h3>
+          <p>Si prefieres, completa este formulario y nosotros te contactamos.</p>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-field">
+              <label for="nombre2">Nombre</label>
+              <input type="text" id="nombre2" name="nombre2" required />
+            </div>
+            <div class="form-field">
+              <label for="telefono2">Teléfono</label>
+              <input type="tel" id="telefono2" name="telefono2" required />
+            </div>
+            <div class="form-field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos en qué te podemos ayudar."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Asesores KG. Todos los derechos reservados.</p>
+      <p class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <span>·</span>
+        <a href="#productos">Productos</a>
+        <span>·</span>
+        <a href="#unete">Únete como asesor</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
