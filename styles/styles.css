@@ -147,6 +147,26 @@ body {
   align-items: center;
 }
 
+.hero-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.hero-illustration-wrapper {
+  border-radius: 18px;
+  padding: 1rem 1rem 0.5rem;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(15, 23, 42, 0.03));
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.hero-illustration {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .hero-kicker {
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -431,6 +451,12 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
+}
+
+.card-icon-img {
+  max-width: 60%;
+  max-height: 60%;
+  display: block;
 }
 
 .card-list {
@@ -896,6 +922,15 @@ body {
   body.nav-open .nav-cta {
     align-self: stretch;
     text-align: center;
+  }
+
+  .hero-side {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  .hero-illustration-wrapper {
+    order: -1;
   }
 }
 
